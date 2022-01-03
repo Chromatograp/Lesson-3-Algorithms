@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-03T19:14:05.839Z" agent="5.0 (X11)" etag="eG9SvSKMZod5qj9sMS8e" version="16.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-03T19:25:30.333Z" agent="5.0 (X11)" etag="rpwAUUQoZCNMABadJ2aj" version="16.1.2" type="github">
   <diagram id="qNlol4iyw4H__YHxE9YO" name="Page-1">
-    <mxGraphModel dx="782" dy="418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="378" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -44,40 +44,46 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ixz_LwYEeJ6vD5rPxs-Y-7" value="max_in_list = i for i, x in enumerate(list) if x = most" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.octagon2;align=center;verticalAlign=middle;dx=15;" vertex="1" parent="1">
-          <mxGeometry x="335" y="510" width="130" height="100" as="geometry" />
+          <mxGeometry x="322.5" y="510" width="155" height="70" as="geometry" />
         </mxCell>
         <mxCell id="ixz_LwYEeJ6vD5rPxs-Y-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ixz_LwYEeJ6vD5rPxs-Y-8" target="ixz_LwYEeJ6vD5rPxs-Y-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ixz_LwYEeJ6vD5rPxs-Y-8" value="min_in_list = i for i, x in enumerate(list) if x = least" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.octagon2;align=center;verticalAlign=middle;dx=15;" vertex="1" parent="1">
-          <mxGeometry x="330" y="640" width="140" height="80" as="geometry" />
+          <mxGeometry x="330" y="600" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ixz_LwYEeJ6vD5rPxs-Y-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ixz_LwYEeJ6vD5rPxs-Y-9" target="ixz_LwYEeJ6vD5rPxs-Y-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ixz_LwYEeJ6vD5rPxs-Y-9" value="ma, *max_in_list = max_in_list" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="750" width="120" height="40" as="geometry" />
+          <mxGeometry x="340" y="710" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ixz_LwYEeJ6vD5rPxs-Y-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ixz_LwYEeJ6vD5rPxs-Y-10" target="ixz_LwYEeJ6vD5rPxs-Y-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ixz_LwYEeJ6vD5rPxs-Y-10" value="mi, *min_in_list = min_in_list" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="820" width="120" height="40" as="geometry" />
+          <mxGeometry x="340" y="780" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ixz_LwYEeJ6vD5rPxs-Y-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ixz_LwYEeJ6vD5rPxs-Y-11" target="ixz_LwYEeJ6vD5rPxs-Y-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ixz_LwYEeJ6vD5rPxs-Y-11" value="list[mi], list[ma] = list[ma], list[mi]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="890" width="120" height="40" as="geometry" />
+          <mxGeometry x="340" y="850" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ixz_LwYEeJ6vD5rPxs-Y-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ixz_LwYEeJ6vD5rPxs-Y-12" target="ixz_LwYEeJ6vD5rPxs-Y-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ixz_LwYEeJ6vD5rPxs-Y-12" value="&#39; &#39;.join(str(i) for i in list)" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.octagon2;align=center;verticalAlign=middle;dx=15;" vertex="1" parent="1">
-          <mxGeometry x="335" y="960" width="130" height="60" as="geometry" />
+          <mxGeometry x="335" y="910" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ixz_LwYEeJ6vD5rPxs-Y-13" value="Вывод: Ваши числа, большее и меньшее переставлены местами" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="1050" width="160" height="60" as="geometry" />
+        <mxCell id="ixz_LwYEeJ6vD5rPxs-Y-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ixz_LwYEeJ6vD5rPxs-Y-13" target="ixz_LwYEeJ6vD5rPxs-Y-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ixz_LwYEeJ6vD5rPxs-Y-13" value="Вывод: Ваши числа, большее и меньшее переставлены местами list" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="990" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ixz_LwYEeJ6vD5rPxs-Y-26" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1070" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
