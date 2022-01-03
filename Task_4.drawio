@@ -1,1 +1,81 @@
-<mxfile host="app.diagrams.net" modified="2022-01-03T19:14:54.538Z" agent="5.0 (X11)" version="16.1.2" etag="HuneLdIMmaMefdB7qfKF" type="github"><diagram id="clpgUzq1kONX2NWK2iSc">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-03T19:52:44.831Z" agent="5.0 (X11)" etag="PsKxIwL0T2aQCCi6vZUM" version="16.1.2" type="github">
+  <diagram id="clpgUzq1kONX2NWK2iSc" name="Page-1">
+    <mxGraphModel dx="782" dy="418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2VbiIZ2fyIYLHgACposi-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2VbiIZ2fyIYLHgACposi-1" target="2VbiIZ2fyIYLHgACposi-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2VbiIZ2fyIYLHgACposi-1" value="Начало" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2VbiIZ2fyIYLHgACposi-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2VbiIZ2fyIYLHgACposi-2" target="2VbiIZ2fyIYLHgACposi-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2VbiIZ2fyIYLHgACposi-2" value="list = int(i) for i in input(Введите числа через пробел. Желательно, чтобы хотя бы одно из них повторялось).split" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.octagon2;align=center;verticalAlign=middle;dx=15;" vertex="1" parent="1">
+          <mxGeometry x="325" y="140" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="2VbiIZ2fyIYLHgACposi-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2VbiIZ2fyIYLHgACposi-3" target="2VbiIZ2fyIYLHgACposi-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2VbiIZ2fyIYLHgACposi-3" value="num = Counter(list)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="260" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2VbiIZ2fyIYLHgACposi-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2VbiIZ2fyIYLHgACposi-4" target="2VbiIZ2fyIYLHgACposi-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2VbiIZ2fyIYLHgACposi-4" value="max_val = None" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="310" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2VbiIZ2fyIYLHgACposi-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2VbiIZ2fyIYLHgACposi-5" target="2VbiIZ2fyIYLHgACposi-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2VbiIZ2fyIYLHgACposi-5" value="max_key = -1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="360" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2VbiIZ2fyIYLHgACposi-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2VbiIZ2fyIYLHgACposi-6" target="2VbiIZ2fyIYLHgACposi-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2VbiIZ2fyIYLHgACposi-6" value="for i in num" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.octagon2;align=center;verticalAlign=middle;dx=15;" vertex="1" parent="1">
+          <mxGeometry x="350" y="410" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2VbiIZ2fyIYLHgACposi-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2VbiIZ2fyIYLHgACposi-7" target="2VbiIZ2fyIYLHgACposi-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2VbiIZ2fyIYLHgACposi-7" value="max_val is None or max_val &amp;lt; num[i]" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="470" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="2VbiIZ2fyIYLHgACposi-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2VbiIZ2fyIYLHgACposi-8" target="2VbiIZ2fyIYLHgACposi-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2VbiIZ2fyIYLHgACposi-8" value="max_val = num[i]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2VbiIZ2fyIYLHgACposi-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2VbiIZ2fyIYLHgACposi-9" target="2VbiIZ2fyIYLHgACposi-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2VbiIZ2fyIYLHgACposi-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2VbiIZ2fyIYLHgACposi-9" target="2VbiIZ2fyIYLHgACposi-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="740" />
+              <mxPoint x="480" y="275" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2VbiIZ2fyIYLHgACposi-9" value="max_key = i" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2VbiIZ2fyIYLHgACposi-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2VbiIZ2fyIYLHgACposi-10" target="2VbiIZ2fyIYLHgACposi-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2VbiIZ2fyIYLHgACposi-10" value="Вывод: В вашем списке чаще всего встречается число max_key" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="800" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2VbiIZ2fyIYLHgACposi-21" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="890" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
