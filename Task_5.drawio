@@ -1,1 +1,68 @@
-<mxfile host="app.diagrams.net" modified="2022-01-03T19:53:35.133Z" agent="5.0 (X11)" version="16.1.2" etag="mNM69bGypef2XXrVFEbL" type="github"><diagram id="o-xOagHclc8CXqynoaLd">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-03T20:06:22.131Z" agent="5.0 (X11)" etag="1SilIY187yAWNfcRMb4R" version="16.1.2" type="github">
+  <diagram id="o-xOagHclc8CXqynoaLd" name="Page-1">
+    <mxGraphModel dx="782" dy="418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hRPNHQPZ2LypxkFfQPC_-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hRPNHQPZ2LypxkFfQPC_-1" target="hRPNHQPZ2LypxkFfQPC_-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hRPNHQPZ2LypxkFfQPC_-1" value="Начало" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hRPNHQPZ2LypxkFfQPC_-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hRPNHQPZ2LypxkFfQPC_-2" target="hRPNHQPZ2LypxkFfQPC_-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hRPNHQPZ2LypxkFfQPC_-2" value="int(i) for i in input(Введите числа через пробел. Желательно, чтобы среди них было хотя бы одно отрицательное).split" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.octagon2;align=center;verticalAlign=middle;dx=15;" vertex="1" parent="1">
+          <mxGeometry x="300" y="150" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hRPNHQPZ2LypxkFfQPC_-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hRPNHQPZ2LypxkFfQPC_-3" target="hRPNHQPZ2LypxkFfQPC_-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hRPNHQPZ2LypxkFfQPC_-3" value="list.sort(reverse=True)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="280" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hRPNHQPZ2LypxkFfQPC_-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="hRPNHQPZ2LypxkFfQPC_-4" target="hRPNHQPZ2LypxkFfQPC_-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="390" />
+              <mxPoint x="400" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hRPNHQPZ2LypxkFfQPC_-4" value="for i in list" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.octagon2;align=center;verticalAlign=middle;dx=15;" vertex="1" parent="1">
+          <mxGeometry x="350" y="380" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hRPNHQPZ2LypxkFfQPC_-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hRPNHQPZ2LypxkFfQPC_-5" target="hRPNHQPZ2LypxkFfQPC_-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="540" />
+              <mxPoint x="280" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hRPNHQPZ2LypxkFfQPC_-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hRPNHQPZ2LypxkFfQPC_-5" target="hRPNHQPZ2LypxkFfQPC_-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hRPNHQPZ2LypxkFfQPC_-5" value="i &amp;lt; 0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="495" width="95" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hRPNHQPZ2LypxkFfQPC_-6" value="Да" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="490" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hRPNHQPZ2LypxkFfQPC_-7" value="Нет" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="490" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hRPNHQPZ2LypxkFfQPC_-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hRPNHQPZ2LypxkFfQPC_-8" target="hRPNHQPZ2LypxkFfQPC_-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hRPNHQPZ2LypxkFfQPC_-8" value="Вывод: Наибольшее отрицательное число в вашем списке i" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="510" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hRPNHQPZ2LypxkFfQPC_-15" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="660" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
