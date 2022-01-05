@@ -5,10 +5,16 @@ print('Задание 7.')
 
 list = [int(i) for i in input('Введите числа через пробел: ').split()]
 
+# Определяем минимальный элемент списка:
 min1 = [(i[0]) for i in [sorted(list)]]
+
+# Удаляем его:
 list_ = list.remove(*min1)
+
+# Вновь определяем минимальный элемент списка:
 min2 = [(i[0]) for i in [sorted(list)]]
 
+# Распаковываем полученные элементы:
 min_1, *min1 = min1
 min_2, *min2 = min2
 
